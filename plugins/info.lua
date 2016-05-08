@@ -182,7 +182,7 @@ local hash = 'rank:'..msg.to.id..':variables'
 	 text = text..'نام گروه : '..msg.to.title..'\n'
      text = text..'ایدی گروه : '..msg.to.id
     end
-	   return send_msg(receiver, text, ok_cb, true)
+    return send_msg(receiver, text, ok_cb, true)
     end
   end
   if matches[1]:lower() == 'info' and matches[2] then
