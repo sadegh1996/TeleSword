@@ -18,12 +18,16 @@ local function run(msg, matches)
 end
 
 return {
-  description = "Convert LaTeX equation to image",
+  description = "تبدیل متن به عکس",
   usage = {
-    "t2i [equation]: Convert LaTeX equation to image"
+    "تبدیل [equation]: تبدیل متن به عکس",
+	"t2i [equation]: تبدیل متن به عکس",
+	"/t2i [equation]: تبدیل متن به عکس",
   },
   patterns = {
-    "^[Tt]2i (.+)$"
+    "^تبدیل (.+)$",
+	"^t2i (.+)$",
+	"^[!/#][Tt]2i (.+)$"
   },
   run = run
 }
