@@ -235,6 +235,7 @@ function create_config( )
     "info",
     "time",
     "welcome",
+    "welcome2",
     "helpplugin",
     "me",
     "lock_badwords",
